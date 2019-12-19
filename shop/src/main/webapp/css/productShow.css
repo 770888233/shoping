@@ -1,0 +1,554 @@
+@CHARSET "UTF-8";
+
+.bookShow
+{
+	width: 1500px;
+	margin-top: 10px;
+	padding: 10px;
+	overflow: hidden;	
+}
+
+.bookShow img
+{
+	width: 180px;
+	display: block;
+	height: 180px;
+}
+
+.bookShow label
+{
+	margin-left: 50%;
+	font-size : 14px;
+}
+
+.bookShow ul 
+{
+	width: 1500px;
+	padding-top: 20px;
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	border: 0px none;
+	float: left;
+}
+
+.bookShow ul li 
+{
+    width: 230px;
+    margin-right: 30px;
+    margin-bottom: 26px;
+    height: 230px;
+    position: relative;
+    overflow: visible;
+	float: left;
+}
+
+
+.bookShow ul li .name a:hover 
+{
+    text-decoration: underline;
+    color: #EC7814;
+}
+
+.bookShow ul li .name a
+{
+    color: #000;
+    font-size: 12px;
+}
+
+.bookShow ul li .author 
+{
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden;
+    color: #AAA;
+	list-style-type: none;
+	border: 0px none;
+	font-size: 12px;
+}
+
+.bookShow ul li .press_date 
+{
+    line-height: 24px;
+    list-style-type: none;
+    font-size: 12px;
+}
+
+.bookShow ul li .price .rob 
+{
+    color: #C30;
+    font-weight: bold;
+    line-height: 16px;
+	font-family: "Arial";
+	font-size: 14px;
+	list-style-type: none;
+}
+
+.bookShow ul li .price .price_r
+{
+	color: #AAA;
+	text-decoration: line-through;
+	overflow: hidden;
+	line-height: 16px;
+	font-family: "Arial";
+	font-size: 14px;
+	list-style-type: none;
+}
+
+.bookDetailShow
+{
+
+}
+
+.bookDetailShow .priceP
+{
+	
+}
+
+.bookDetailShow .priceP label
+{
+	color: #999;
+}
+
+.bookDetailShow h3
+{
+	font-size: 1.2em;
+}
+
+#marketPrice
+{
+	color: #AAA;
+	text-decoration: line-through;
+	overflow: hidden;
+	line-height: 16px;
+	font-family: "Arial";
+	font-size: 14px;
+	list-style-type: none;
+}
+
+#vipPrice
+{
+	color: #DC0000;
+	display: inline-block;
+	font-size: 12px;
+}
+
+.productDetailImg
+{
+
+}
+
+.productDetailImg img
+{
+	width: 450px;
+	display: block;
+	height: 450px;
+}
+
+.productInfo
+{
+	width: 500px;
+	padding: 20px 0;
+	border-top: 2px solid #CD1F25;
+	margin: 0px;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+.productInfo label
+{
+	color: #AAA;
+	font-size : 12px;
+}
+
+#salesvolume
+{
+	color: #DC0000;
+	font-size: 15px;
+}
+
+#LinkBuy 
+{
+    margin-right: 0px;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    width: 178px;
+    height: 38px;
+    line-height: 38px;
+    background-color: #FFEDED;
+    border: 1px solid #C40000;
+    color: #C40000;
+    font-family: "Microsoft Yahei";
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0px;
+	padding: 0px;
+}
+
+#LinkBasket
+{
+	background-color: #C40000;
+	border: 1px solid #C40000;
+	color: #FFF;
+	margin-right: 0px;
+	float: left;
+	overflow: hidden;
+	position: relative;
+	width: 178px;
+	height: 38px;
+	line-height: 38px;
+	font-family: "Microsoft Yahei";
+	font-size: 16px;
+	text-align: center;
+	text-decoration: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+#buyCount
+{
+vertical-align: middle;
+color: #666;
+font-size: 12px;
+margin: 0;
+padding: 3px 2px 0 3px;
+height: 26px;
+border: 1px solid #a7a6ac;
+width: 36px;
+line-height: 26px;
+background-position: -406px -41px;
+font: 12px/1.5 tahoma,arial,"\5b8b\4f53";
+-webkit-appearance: textfield;
+background-color: white;
+-webkit-rtl-ordering: logical;
+-webkit-user-select: text;
+cursor: auto;
+letter-spacing: normal;
+word-spacing: normal;
+text-transform: none;
+text-indent: 0px;
+text-shadow: none;
+display: inline-block;
+text-align: start;
+-webkit-writing-mode: horizontal-tb;
+}
+
+#mui-amount-btn
+{
+	display: inline-block;
+vertical-align: middle;
+margin: 0;
+padding: 0;
+line-height: 31px;
+color: #878787;
+font-family: tahoma,arial,\5FAE\8F6F\96C5\9ED1,sans-serif;
+font: 12px/1.5 tahoma,arial,'Hiragino Sans GB','\5FAE\8F6F\96C5\9ED1','\5b8b\4f53',sans-serif;
+}
+
+.myCupCountTd
+{
+}
+
+#mui-amount-increase
+{
+	width: 16px;
+height: 11px;
+overflow: hidden;
+cursor: pointer;
+border: 1px solid #a7a6ab;
+display: block;
+font-family: tm-detail-font;
+line-height: 12px;
+font-size: 16px;
+margin-bottom: 3px;
+padding: 0;
+padding-left: 3px;
+padding-bottom: 4px;
+color: #878787;
+font: 12px/1.5 tahoma,arial,'Hiragino Sans GB','\5FAE\8F6F\96C5\9ED1','\5b8b\4f53',sans-serif;
+}
+
+#mui-amount-decrease
+{
+width: 16px;
+height: 12px;
+overflow: hidden;
+cursor: pointer;
+border: 1px solid #a7a6ab;
+display: block;
+font-family: tm-detail-font;
+line-height: 12px;
+font-size: 16px;
+margin-top: 3px;
+padding: 0;
+padding-left: 3px;
+padding-bottom: 3px;
+color: #878787;
+font: 12px/1.5 tahoma,arial,'Hiragino Sans GB','\5FAE\8F6F\96C5\9ED1','\5b8b\4f53',sans-serif;
+}
+
+#addressUl
+{
+	
+}
+
+#addressUl li
+{
+	font-size: 13px;
+	padding: 4px;
+}
+
+#addressDiv
+{
+	padding: 10px;
+}
+
+.makeSureTable
+{
+width: 990px;
+margin-bottom: 50px;
+margin-top: 20px;
+table-layout: fixed;
+text-align: center;
+border-collapse: collapse;
+border-spacing: 0;
+display: table;
+border-color: gray;
+font: 12px/1.5 tahoma,arial,"\5b8b\4f53";
+}
+
+.makeSureTable th
+{
+padding: 4px 0;
+color: #999;
+font-weight: 400;
+text-align: center;
+font: 12px/1.5 tahoma,arial,"\5b8b\4f53";
+
+}
+
+.row-border
+{
+display: table-row;
+vertical-align: inherit;
+border-color: inherit;
+text-align: center;
+border-collapse: collapse;
+border-spacing: 0;
+border-spacing: 2px;
+border-color: gray;
+font: 12px/1.5 tahoma,arial,"\5b8b\4f53";
+}
+
+.row-border td
+{
+background: #b2d1ff;
+height: 3px;
+border-right: 2px solid #fff;
+margin: 0;
+padding: 0;
+display: table-cell;
+vertical-align: inherit;
+text-align: center;
+border-collapse: collapse;
+border-spacing: 0;
+border-spacing: 2px;
+border-color: gray;
+font: 12px/1.5 tahoma,arial,"\5b8b\4f53";
+}
+
+.row-info
+{
+	
+}
+.row-info td
+{
+	border-bottom: 1px solid #b4d0ff;
+	padding:8px
+	text-align: center;
+}
+
+.row-foot
+{
+}
+
+.tube-annex
+{
+background: #f2f6ff;
+text-align: left;
+}
+.tube-count
+{
+padding-right: 10px;
+text-align: right;
+background: #f2f6ff;
+
+}
+
+#clearCup
+{
+	background-color: #5D7378;
+	border: 1px solid #C40000;
+	color: #FFF;
+	margin-right: 30px;
+	float: right;
+	overflow: hidden;
+	position: relative;
+	width: 178px;
+	height: 38px;
+	line-height: 38px;
+	font-family: "Microsoft Yahei";
+	font-size: 16px;
+	text-align: center;
+	text-decoration: none;
+	padding: 0px;
+}
+
+#submitSubscribe
+{
+	background-color: #C40000;
+	border: 1px solid #C40000;
+	color: #FFF;
+	margin-right: 0px;
+	float: right;
+	overflow: hidden;
+	position: relative;
+	width: 178px;
+	height: 38px;
+	line-height: 38px;
+	font-family: "Microsoft Yahei";
+	font-size: 16px;
+	text-align: center;
+	text-decoration: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+#makeSureRecive
+{
+	display: inline-block;
+	margin-bottom: 4px;
+	color: #fff;
+	font-weight: 700;
+background-color: #66b6ff;
+padding: 8px 12px;
+line-height: 1;
+text-align: center;
+cursor: pointer;
+-webkit-border-radius: 2px;
+text-decoration: none;
+border-collapse: collapse;
+border-spacing: 0;
+border-spacing: 2px;
+border-color: gray;
+zoom: 1;
+}
+
+.J_Minus
+{
+border-right-color: transparent;
+display: block;
+height: 23px;
+width: 17px;
+border: 1px solid #e5e5e5;
+background: #f0f0f0;
+text-align: center;
+line-height: 23px;
+color: #444;
+position: absolute;
+zoom: 1;
+list-style: none;
+}
+
+.J_Plus
+{
+border-left-color: transparent;
+right: 0;
+display: block;
+height: 23px;
+width: 17px;
+border: 1px solid #e5e5e5;
+background: #f0f0f0;
+text-align: center;
+line-height: 23px;
+color: #444;
+position: absolute;
+top: 0;
+float: left;
+text-decoration: none;
+zoom: 1;
+list-style: none;
+}
+
+.text-amount
+{
+width: 39px;
+height: 15px;
+border: 1px solid #aaa;
+color: #343434;
+text-align: center;
+padding: 4px 0;
+background-color: #fff;
+background-position: -75px -375px;
+-webkit-appearance: textfield;
+-webkit-rtl-ordering: logical;
+-webkit-user-select: text;
+cursor: auto;
+letter-spacing: normal;
+word-spacing: normal;
+text-transform: none;
+text-indent: 0px;
+text-shadow: none;
+display: inline-block;
+}
+
+.item-amount
+{
+height: 25px;
+overflow: hidden;
+position: relative;
+z-index: 1;
+width: 77px;
+text-align: -webkit-match-parent;
+}
+
+.myCupPrice
+{
+font-weight: 700;
+line-height: 48px;
+font-family: Arial;
+vertical-align: middle;
+}
+
+.realPay
+{
+	margin-top: -6px;
+	display: block;
+	color: #999;
+	text-align: right;
+	font: 12px/1.5 tahoma,arial,"\5b8b\4f53";
+	border-bottom: 1px dotted #888;
+	margin-bottom: 20px;
+}
+
+.productComment
+{
+	width: 100%;
+	table-layout: fixed;
+	border-collapse: collapse;
+	border-spacing: 0px;
+	margin: 0px;
+	padding: 0px;
+	color: #404040;
+	font-family: tahoma,arial,΢���ź�,sans-serif;
+	font: 12px/1.5 tahoma,arial,"����";
+}
+
+.productComment td
+{
+padding-right: 30px;
+padding: 16px 7px;
+border-bottom: 1px solid #E3E3E3;
+}

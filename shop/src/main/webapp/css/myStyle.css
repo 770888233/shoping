@@ -1,0 +1,154 @@
+.form-userinfo {
+	position: relative;
+	padding-bottom: 30px;
+}
+.form-userinfo div {
+	padding: 5px 0;
+}
+.form-userinfo span {
+	display: block;
+	font-size: 0.8125em;
+	color: #757575;
+	padding-bottom: 5px;
+	font-family: verdana, arial, helvetica, helve, sans-serif;
+}
+.form-userinfo input[type="text"], .form-userinfo textarea {
+	padding: 8px;
+	display: block;
+	width:98%;
+	background:none;
+	border:1px solid #CACACA;
+	outline: none;
+	color: #464646;
+	font-size:1em;
+	font-weight:bold;
+	font-family: Arial, Helvetica, sans-serif;
+	-webkit-appearance: none;
+}
+
+.form-userinfo input[type="password"], .form-userinfo textarea {
+	padding: 8px;
+	display: block;
+	width:98%;
+	background:none;
+	border:1px solid #CACACA;
+	outline: none;
+	color: #464646;
+	font-size:1em;
+	font-weight:bold;
+	font-family: Arial, Helvetica, sans-serif;
+	-webkit-appearance: none;
+}
+
+.form-userinfo textarea {
+	resize: none;
+	height: 120px;
+}
+.form-userinfo input[type="submit"] {
+	padding:10px 15px;
+	font-family: 'ambleregular';
+	background:#CD1F25;
+	color: #FFF;
+	border:none;
+	text-decoration: none;
+	outline: 0;
+	cursor:pointer;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+	position: absolute;
+	right: 0;
+}
+
+.addressSubmit input[type="submit"] {
+	padding:10px 15px;
+	font-family: 'ambleregular';
+	background:#CD1F25;
+	color: #FFF;
+	border:none;
+	text-decoration: none;
+	outline: 0;
+	cursor:pointer;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+	position: absolute;
+	right: 100;
+}
+
+.form-userinfo input[type="reset"] {
+	font-size:1em;
+	padding:10px 15px;
+	font-family: 'ambleregular';
+	background:#CD1F25;
+	color: #FFF;
+	border:none;
+	text-decoration: none;
+	outline: 0;
+	cursor:pointer;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+	position: absolute;
+	left: 550px;
+}
+
+
+.form-userinfo td, .form-userinfo th{
+    padding-top: 8px;
+    padding-bottom: 4px;
+	line-height:20ppx;
+	font-size: 13px;
+}
+.form-userinfo th{
+   font-size: 13px;
+	background-color:#eaeaea;
+}
+
+.tableleft{
+	text-align:right;
+	padding-left:5px;
+	background-color:#f5f5f5;
+
+}
+
+.tablecenter{
+	text-align:center;
+}
+
+.definewidth{
+	width:150%;
+	margin:auto;		
+}
+
+.m10{
+	margin-top:10px;
+}
+.m20{
+	padding-top:20px;
+}
+
+.table-bordered {
+  border-collapse: collapse;
+  border-left: 0;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+}
+
+.table-bordered th,
+.table-bordered td 
+{
+  border: 1px solid #DDD;
+}
+
+.onShow,.onFocus,.onError,.onCorrect,.onLoad,.onTime{display:inline-block;display:-moz-inline-stack;zoom:1;*display:inline; vertical-align:middle;background:url(../Images/msg_bg.png) no-repeat;	color:#444;line-height:18px;padding:2px 10px 2px 23px; margin-left:10px;_margin-left:5px}
+.onShow{background-position:3px -147px;border-color:#40B3FF;color:#959595}
+.onFocus{background-position:3px -147px;border-color:#40B3FF;}
+.onError{background-position:3px -47px;border-color:#40B3FF; color:red}
+.onCorrect{background-position:3px -247px;border-color:#40B3FF;}
+.onLamp{background-position:3px -200px}
+.onTime{background-position:3px -1356px}
