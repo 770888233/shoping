@@ -1,0 +1,14 @@
+@CHARSET "UTF-8";
+
+.common
+{
+}
+
+.common a:hover {
+    color: #B81D22;
+}
+
+.common a {
+    color: #9C9C9C;
+    font-size: 0.8em;
+}
