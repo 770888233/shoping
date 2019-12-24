@@ -47,3 +47,18 @@ https://github.com/770888233/-/blob/master/%E5%9B%BE%E7%89%87/(J%40%7B(O~THP88ZQ
 
 * 订单管理
 >可以对已经付款的订单进行确定发货，和查询所有的订单，后期应该在加上一个确认收获以后有个填写物流编号的位置。
+
+
+![image](https://github.com/770888233/shoping/blob/master/images/1%20%20(1).png)
+![image](https://github.com/770888233/shoping/blob/master/images/1%20%20(2).png)
+![image](https://github.com/770888233/shoping/blob/master/images/1%20%20(3).png)
+![image](https://github.com/770888233/shoping/blob/master/images/1%20%20(4).png)
+![image](https://github.com/770888233/shoping/blob/master/images/1%20%20(5).png)
+![image](https://github.com/770888233/shoping/blob/master/images/1%20%20(6).png)
+![image](https://github.com/770888233/shoping/blob/master/images/1%20%20(7).png)
+![image](https://github.com/770888233/shoping/blob/master/images/1%20%20(8).png)
+![image](https://github.com/770888233/shoping/blob/master/images/1%20%20(9).png)
+![image](https://github.com/770888233/shoping/blob/master/images/1%20%20(10).png)
+![image](https://github.com/770888233/shoping/blob/master/images/1%20%20(11).png)
+![image](https://github.com/770888233/shoping/blob/master/images/1%20%20(12).png)
+![image](https://github.com/770888233/shoping/blob/master/images/1%20%20(13).png)
